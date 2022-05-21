@@ -1,3 +1,5 @@
+import {SimpleModal} from "../src/SimpleModal";
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -7,6 +9,11 @@ export const parameters = {
     },
   },
   storyContainers: [
+    {
+      id: "modal",
+      label: "Modal",
+      container: SimpleModal,
+    },
     {
       id: "inline",
       label: "Inline",
