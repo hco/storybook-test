@@ -22,7 +22,7 @@ export const parameters = {
           style={{
             width: "100%",
             height: "100%",
-            backgroundColor: "#0cf",
+            backgroundColor: "#e2cdf7",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
